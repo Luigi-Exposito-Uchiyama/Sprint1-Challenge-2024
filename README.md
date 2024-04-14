@@ -37,8 +37,9 @@ Quando terminar de testar ou usar sua aplicação, você pode encerrar a execuç
 
 <h1>Endpoints</h1>
 
-<ul>
-  <li>async function cadastrar(nome, email, senha, idade) {
+<p>
+    
+    async function cadastrar(nome, email, senha, idade) {
     let url = `http://localhost/cadastro/cadastrar`;
 
     let headers = {
@@ -58,6 +59,56 @@ Quando terminar de testar ou usar sua aplicação, você pode encerrar a execuç
         body: JSON.stringify(body),
     });
     console.log(response.status)
-};
-</li>
-</ul>
+    };
+    
+</p>
+
+<p>
+    
+    async function getPerfil(id) {
+    let url = `http://localhost/cadastro/${id}`;
+
+    let response = await fetch(url, {
+        method: 'GET',
+    });
+    console.log(response.status)
+    };
+    
+</p>
+
+<p>
+    
+    async function autenticar(email, senha) {
+    let url = `http://localhost/login/autenticar`;
+
+    let headers = {
+        'Content-Type': 'application/json',
+    };
+
+    let body = {
+        email,
+        senha,
+    };
+
+    let response = await fetch(url, {
+        method: 'POST',
+        headers: headers,
+        body: JSON.stringify(body),
+    });
+    console.log(response.status)
+    };
+    
+</p>
+
+<p>
+    
+    async function getPerfil(email, senha) {
+    let url = `http://localhost/login/perfil/${email}/${senha}`;
+
+    let response = await fetch(url, {
+        method: 'GET',
+    });
+    console.log(response.status)
+    };
+    
+</p>
