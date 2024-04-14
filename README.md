@@ -36,3 +36,28 @@ Quando terminar de testar ou usar sua aplicação, você pode encerrar a execuç
 <h1>Link da ideia do Projeto</h1>
 
 <h1>Endpoints</h1>
+
+<ul>
+  <li>async function cadastrar(nome, email, senha, idade) {
+    let url = `http://localhost/cadastro/cadastrar`;
+
+    let headers = {
+        'Content-Type': 'application/json',
+    };
+
+    let body = {
+        nome,
+        email,
+        senha,
+        idade,
+    };
+
+    let response = await fetch(url, {
+        method: 'POST',
+        headers: headers,
+        body: JSON.stringify(body),
+    });
+    console.log(response.status)
+};
+</li>
+</ul>
