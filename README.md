@@ -1,12 +1,13 @@
-# Sprint1-Challenge-2024
+# GymBuddy
 
-<h1>GymBuddy</h1>
+<h1>Nome dos Integrantes e Atividade Responsável</h1>
 
 <ul>
   <li>Luigi Exposito Uchiyama - Responsável por fazer o projeto Java </li>
 </ul>
 
 <h1>Como rodar o projeto</h1>
+
 <p>Abra o Projeto no IntelliJ:
 Abra o IntelliJ IDEA e abra o projeto Java no qual você deseja trabalhar. Você pode fazer isso selecionando a opção "File" (Arquivo) no menu superior e, em seguida, escolhendo "Open" (Abrir) para navegar até o diretório do projeto e selecioná-lo.
 
@@ -28,4 +29,10 @@ Dependendo da natureza da sua aplicação, você pode interagir com ela diretame
 Encerre a Execução:
 Quando terminar de testar ou usar sua aplicação, você pode encerrar a execução clicando no botão "Stop" (Parar) na barra de ferramentas superior ou pressionando Ctrl + F2.</p>
 
+<h1>Diagramas</h1>
+
 <img src="documentacao/Diagrama.png">
+
+<h1>Link da ideia do Projeto</h1>
+
+<h1>Endpoints</h1>
