@@ -4,6 +4,10 @@
 
 <ul>
   <li>Luigi Exposito Uchiyama - Responsável por fazer o projeto Java </li>
+  <li>Henrique Oliveira Baptista - Responsável por fazer o projeto IA </li>
+  <li>Igor Ribeiro Anccilotto - Responsável por fazer Compliance quality e Devops tools</li>
+  <li>Pedro Henrique Endo de Oliveira - Responsável por fazer DataBase</li>
+  <li>Kauane Almeida Gonçalves - Responsável por fazer Mobile e C#</li>
 </ul>
 
 <h1>Como rodar o projeto</h1>
