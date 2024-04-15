@@ -39,6 +39,8 @@ Quando terminar de testar ou usar sua aplicação, você pode encerrar a execuç
 
 <h1>Link da ideia do Projeto</h1>
 
+<p>https://youtu.be/MvVYk-dFjNg</p>
+
 <h1>Endpoints</h1>
 
 <p>
